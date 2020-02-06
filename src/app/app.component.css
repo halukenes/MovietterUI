@@ -1,0 +1,120 @@
+.main_div {
+  background-color: #f7f7f8;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 350px auto;
+  grid-template-rows: auto;
+}
+
+.left_div {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.card {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.user_layer {
+  padding-top: 5px;
+  display: grid;
+  grid-template-columns: 45px auto;
+  grid-template-rows: 50px;
+}
+
+h4 {
+  padding-top: 3px;
+  grid-column: 2;
+  grid-row: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.topic_grid {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: 70px 200px;
+  grid-template-rows: repeat(5, auto);
+}
+
+.list-item {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 70px auto;
+  grid-template-rows: auto;
+}
+
+.emotion-name {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.emotion-score {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.search_user {
+  width: 100%;
+}
+
+.right_div {
+  grid-column: 2;
+  grid-row: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.rigth_grid {
+  height: auto;
+  width: 100%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: calc(100% - 20px);
+  grid-template-rows: auto auto;
+  grid-row-gap: 20px;
+}
+
+.emotionmovies_layer {
+  grid-column: 1;
+  grid-row: 2;
+  height: auto;
+  width: 100%;
+}
+
+.topicmovies_layer {
+  grid-column: 1;
+  grid-row: 1;
+  height: auto;
+  width: 100%;
+}
+
+.movie_card {
+  height: auto;
+  width: 100%;
+}
+
+.movie_card_content {
+  height: auto;
+  width: 100%;
+}
+
+.movie_grid {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: auto;
+  grid-column-gap: 20px;
+}
+
+movie-info {
+  grid-row: 2;
+  height: 100%;
+  width: 100%;
+}

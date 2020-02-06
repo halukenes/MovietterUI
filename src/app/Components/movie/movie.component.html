@@ -1,0 +1,17 @@
+<mat-card class='moviedetail-grid'>
+    <div class='poster-row'>
+        <img class="poster" [src]="movieDetail.posterUrl" />
+    </div>
+    <div class='detail-row'>
+        <mat-divider inset='true'></mat-divider>
+        <div class='detail-grid'>
+            <div style='grid-row: 1;' class="text-line">
+                <b class="md-caption">{{movieDetail.name}}</b></div>
+            <div style='grid-row: 2;' class="text-line">
+                <span class="mat-caption">{{movieDetail.genre}}</span></div>
+            <div style='grid-row: 3;' class="text-line">
+                <span class="mat-caption">IMDb Rating: {{movieDetail.imdbRating}}</span></div>
+        </div>
+
+    </div>
+</mat-card>

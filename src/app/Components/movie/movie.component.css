@@ -1,0 +1,39 @@
+.moviedetail-grid {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 200px 54px;
+}
+
+.poster {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 100%;
+}
+
+.poster-row {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.detail-row {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20px 17px 17px;
+}
+
+.text-line {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  grid-column: 1;
+}
